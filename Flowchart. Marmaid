@@ -1,0 +1,165 @@
+```mermaid
+
+graph TD
+    A[Cell Division] --> B[Types of Cell Division]
+    B --> C[Mitosis]
+    B --> D[Meiosis]
+
+    C --> C1[Prophase]
+    C --> C2[Metaphase]
+    C --> C3[Anaphase]
+    C --> C4[Telophase]
+    C --> C5[Cytokinesis]
+
+    D --> D1[Meiosis I]
+    D --> D2[Meiosis II]
+
+    D1 --> D1a[Prophase I]
+    D1 --> D1b[Metaphase I]
+    D1 --> D1c[Anaphase I]
+    D1 --> D1d[Telophase I]
+
+    D2 --> D2a[Prophase II]
+    D2 --> D2b[Metaphase II]
+    D2 --> D2c[Anaphase II]
+    D2 --> D2d[Telophase II]
+    D2 --> D2e[Cytokinesis]
+
+
+graph TD
+    A[Proteins] --> B[Monomers]
+    B --> C[Amino Acids]
+
+    A --> D[Structure Levels]
+    D --> E[Primary]
+    D --> F[Secondary]
+    D --> G[Tertiary]
+    D --> H[Quaternary]
+
+    A --> I[Examples]
+    I --> J[Enzymes]
+    I --> K[Hormones]
+    I --> L[Antibodies]
+
+
+graph TD
+    A[Carbohydrates] --> B[Monosaccharides]
+    B --> B1[Glucose]
+    B --> B2[Fructose]
+
+    A --> C[Disaccharides]
+    C --> C1[Sucrose]
+    C --> C2[Lactose]
+graph TD
+    A[Lipids] --> B[Types]
+    B --> C[Triglycerides]
+    B --> D[Phospholipids]
+    B --> E[Steroids]
+
+    A --> F[Functions]
+    F --> G[Energy Storage]
+    F --> H[Cell Membrane]
+    F --> I[Hormones]
+
+    A --> J[Examples]
+    J --> K[Fats]
+    J --> L[Oils]
+    J --> M[Waxes]
+
+
+graph TD
+    A[Nucleic Acids] --> B[Types]
+    B --> C[DNA]
+    B --> D[RNA]
+
+    A --> E[Monomers]
+    E --> F[Nucleotides]
+
+    A --> G[Examples]
+    G --> H[DNA]
+    G --> I[mRNA]
+    G --> J[tRNA]
+    G --> K[rRNA]
+
+
+graph TD
+    A[Leaf] --> B[Structure]
+    B --> C[Epidermis]
+    B --> D[Mesophyll]
+    B --> E[Veins]
+    B --> F[Stomata]
+
+    A --> G[Functions]
+    G --> H[Photosynthesis]
+    G --> I[Gas Exchange]
+    G --> J[Transpiration]
+
+
+
+graph TD
+    A[DNA and RNA] --> B[DNA]
+    B --> C[Structure]
+    C --> C1[Double Helix]
+    C --> C2[Nucleotides]
+    C2 --> C3[Adenine, Thymine, Cytosine, Guanine]
+
+    B --> D[Function]
+    D --> D1[Genetic Information Storage]
+    D --> D2[Replication]
+
+    A --> E[RNA]
+    E --> F[Structure]
+    F --> F1[Single-Stranded]
+    F --> F2[Nucleotides]
+    F2 --> F3[Adenine, Uracil, Cytosine, Guanine]
+
+    E --> G[Function]
+    G --> G1[Protein Synthesis]
+    G1 --> H[mRNA]
+    G1 --> I[tRNA]
+    G1 --> J[rRNA]
+
+
+
+graph TD
+    A[Light Dependent Reaction] --> B[Occurs in Thylakoid Membrane]
+    B --> C[Photosystem II absorbs light]
+    C --> D[Water splits]
+    D --> E[Oxygen released]
+    D --> F[Electrons energized]
+
+    F --> G[Electron Transport Chain]
+    G --> H[ATP synthesis]
+    G --> I[Photosystem I re-energizes electrons]
+
+    I --> J[NADPH formation]
+
+
+
+graph TD
+    A[Dark Reaction (Calvin Cycle)] --> B[Occurs in Stroma]
+    B --> C[Carbon Fixation]
+    C --> D[CO2 + RuBP]
+
+    D --> E[Reduction Phase]
+    E --> F[3-PGA to G3P]
+
+    F --> G[Regeneration of RuBP]
+    G --> H[Use of ATP]
+
+    F --> I[Glucose Formation]
+
+
+graph TD
+    A[Dark Reaction (Calvin Cycle)] --> B[Occurs in Stroma]
+    B --> C[Carbon Fixation]
+    C --> D[CO2 + RuBP]
+
+    D --> E[Reduction Phase]
+    E --> F[3-PGA to G3P]
+
+    F --> G[Regeneration of RuBP]
+    G --> H[Use of ATP]
+
+    F --> I[Glucose Formation]
+```
